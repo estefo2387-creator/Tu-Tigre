@@ -1,0 +1,42 @@
+body{
+    margin-top: 0;
+    height: 100%;
+    background-color: aqua;
+    background-image: url(../img/papota.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+nav{
+    background-color: black;
+    padding: 1px;
+}
+nav ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin-right: 20%;
+}
+nav ul li a{
+text-align: center;
+    color: aliceblue;
+    text-decoration:none ;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    display: inline-block;
+    color: chartreuse;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.titulo{
+    color: blue;
+    text-align: center;
+}
