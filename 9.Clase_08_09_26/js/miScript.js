@@ -17,11 +17,17 @@ function eliminarTareas(indice) {
 }
 function mostrarTareas(){
     console.log("Mostrando Lista de tareas:");
-    tareas.forEach((tarea,indice) =>{
-        console.log(`${indice + 1}.
-             [${tarea.completada }]
-             ${tarea.descripcion}`);
+const contenedor = document.getElementById("respuestas");
+let respuestasHtml = "";
+tareas.forEach((tarea, index) => {
+    console.log(`Tarea ${index + 1},[${tarea.completada}]: ${tarea.descripcion}`);
+    respuestaHtml = '<ul>';
+    respuestaHtml += `<li>Tarea ${index + 1},[${tarea.completada}]: ${tarea.descripcion}</li>`;
+    respuestaHtml += '</ul>';
+    respuestasHtml += respuestaHtml;
+
     });
+ document.getElementById("respuesta").innerHTML = respuestasHtml;
 }
 //Adicionar las tareas
 agregarTareas("Comprar leche","Completado");
