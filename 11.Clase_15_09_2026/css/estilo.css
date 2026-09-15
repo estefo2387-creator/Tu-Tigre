@@ -1,0 +1,25 @@
+body{
+    background-color: #ffd900;
+}
+.titulo{
+    color: #0a1afa;
+    text-align: center;
+}
+.titulo1{
+    color: #0a1afa;
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+tr,th{
+    border: 1px solid black;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 20px;
+}
+tr,td{
+    border: 1px solid black;
+    padding: 2px;
+}
